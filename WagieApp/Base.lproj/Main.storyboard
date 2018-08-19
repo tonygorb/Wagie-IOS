@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Heebo-Bold.ttf">
+            <string>Heebo-Bold</string>
+        </array>
+        <array key="Heebo-Medium.ttf">
+            <string>Heebo-Medium</string>
+        </array>
+        <array key="Heebo-Regular.ttf">
+            <string>Heebo-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="WagieApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrb-tr-T3B" customClass="GradientView" customModule="WagieApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="אני ואייג׳י" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLp-fM-G5O">
+                                        <rect key="frame" x="87" y="369" width="201" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="7QN-cU-RcN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="45"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מחשבון שכר פשוט." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfv-g5-lFe">
+                                        <rect key="frame" x="88" y="406" width="198" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="QAg-6W-u00"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="20"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoo-gb-YDe" customClass="RoundButton" customModule="WagieApp">
+                                        <rect key="frame" x="37" y="720" width="300" height="50"/>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="rOa-V8-90Q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="20"/>
+                                        <state key="normal" title="התחל לחשב">
+                                            <color key="titleColor" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="geF-qB-Zbd" kind="show" identifier="secondScreen" animates="NO" id="NUu-HR-nQU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="sLp-fM-G5O" firstAttribute="top" secondItem="jrb-tr-T3B" secondAttribute="top" constant="369" id="8zG-Y3-DdP"/>
+                                    <constraint firstItem="Mfv-g5-lFe" firstAttribute="top" secondItem="sLp-fM-G5O" secondAttribute="bottom" id="KYg-8P-p0h"/>
+                                    <constraint firstItem="Mfv-g5-lFe" firstAttribute="centerX" secondItem="uoo-gb-YDe" secondAttribute="centerX" id="Lpx-hd-uhE"/>
+                                    <constraint firstItem="sLp-fM-G5O" firstAttribute="leading" secondItem="jrb-tr-T3B" secondAttribute="leading" constant="87" id="MFG-db-C64"/>
+                                    <constraint firstItem="Mfv-g5-lFe" firstAttribute="centerX" secondItem="jrb-tr-T3B" secondAttribute="centerX" id="QtE-ao-dfB"/>
+                                    <constraint firstItem="sLp-fM-G5O" firstAttribute="centerX" secondItem="Mfv-g5-lFe" secondAttribute="centerX" id="WJv-Qv-dDy"/>
+                                    <constraint firstItem="uoo-gb-YDe" firstAttribute="bottom" secondItem="jrb-tr-T3B" secondAttribute="bottomMargin" id="bUi-Qs-xFq"/>
+                                    <constraint firstItem="uoo-gb-YDe" firstAttribute="leading" secondItem="jrb-tr-T3B" secondAttribute="leading" constant="37" id="lY8-qf-9mz"/>
+                                    <constraint firstItem="Mfv-g5-lFe" firstAttribute="leading" secondItem="jrb-tr-T3B" secondAttribute="leading" constant="88" id="tYK-Ue-FfI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                        <color key="value" red="0.20000000000000001" green="0.95294117647058818" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
+                                        <color key="value" red="0.027450980392156862" green="0.26666666666666666" blue="0.41568627450980394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jrb-tr-T3B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5cV-of-A9w"/>
+                            <constraint firstItem="jrb-tr-T3B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CS5-Mc-0gb"/>
+                            <constraint firstItem="jrb-tr-T3B" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aLL-qy-Nca"/>
+                            <constraint firstAttribute="bottom" secondItem="jrb-tr-T3B" secondAttribute="bottom" id="pMv-qr-7bt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JNo-Zo-OK1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="28.817733990147783"/>
+        </scene>
+        <!--Second Screen View Controller-->
+        <scene sceneID="CXq-RM-WBF">
+            <objects>
+                <viewController storyboardIdentifier="SecondScreenViewController" id="geF-qB-Zbd" customClass="SecondScreenViewController" customModule="WagieApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7P-HR-SLI" customClass="GradientView" customModule="WagieApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jBd-lV-iMH">
+                                <rect key="frame" x="37" y="408" width="301" height="30"/>
+                                <color key="textColor" red="0.14509803921568626" green="0.70980392156862748" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="שכר שעתי" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKd-Kr-qUl">
+                                <rect key="frame" x="133" y="364" width="109" height="36"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="24"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuc-T6-5Ia" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="720" width="300" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="S4E-7v-Q60"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="20"/>
+                                <state key="normal" title="הבא">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="thirdView:" destination="geF-qB-Zbd" eventType="touchUpInside" id="VNi-Hm-MWi"/>
+                                    <segue destination="yKC-WG-Zbo" kind="presentation" identifier="thirdScreen" animates="NO" id="aA3-VP-koi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="* הכנס מספר תקין" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0Z-lc-fI8">
+                                <rect key="frame" x="139" y="446" width="106" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="14"/>
+                                <color key="textColor" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cdv-5w-htM" firstAttribute="bottom" secondItem="wuc-T6-5Ia" secondAttribute="bottom" constant="8" id="8IM-eH-ypV"/>
+                            <constraint firstItem="cdv-5w-htM" firstAttribute="trailing" secondItem="pKd-Kr-qUl" secondAttribute="trailing" constant="133" id="DfW-9M-OT1"/>
+                            <constraint firstItem="jBd-lV-iMH" firstAttribute="top" secondItem="pKd-Kr-qUl" secondAttribute="bottom" constant="8" id="Dtg-BP-jq2"/>
+                            <constraint firstItem="pKd-Kr-qUl" firstAttribute="top" secondItem="cdv-5w-htM" secondAttribute="top" constant="320" id="K1A-a9-bqJ"/>
+                            <constraint firstItem="cdv-5w-htM" firstAttribute="trailing" secondItem="jBd-lV-iMH" secondAttribute="trailing" constant="37" id="TA5-mU-fz4"/>
+                            <constraint firstItem="wuc-T6-5Ia" firstAttribute="leading" secondItem="jBd-lV-iMH" secondAttribute="leading" id="h20-R6-UHW"/>
+                            <constraint firstItem="wuc-T6-5Ia" firstAttribute="centerX" secondItem="jBd-lV-iMH" secondAttribute="centerX" id="lPJ-V1-nbC"/>
+                            <constraint firstItem="pKd-Kr-qUl" firstAttribute="leading" secondItem="cdv-5w-htM" secondAttribute="leading" constant="133" id="xhl-n7-q07"/>
+                            <constraint firstItem="jBd-lV-iMH" firstAttribute="leading" secondItem="cdv-5w-htM" secondAttribute="leading" constant="37" id="xlx-Ye-nwq"/>
+                            <constraint firstItem="jBd-lV-iMH" firstAttribute="top" secondItem="pKd-Kr-qUl" secondAttribute="bottom" constant="8" id="zv6-3a-8e2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cdv-5w-htM"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                <color key="value" red="0.20000000000000001" green="0.95294117649999999" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
+                                <color key="value" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="lO5-Qj-VWO"/>
+                    <connections>
+                        <outlet property="errorMessage" destination="A0Z-lc-fI8" id="5xo-nB-F1V"/>
+                        <outlet property="hourlyRate" destination="jBd-lV-iMH" id="bjg-Sw-ytU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Go3-Qw-wwl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789.60000000000002" y="28.817733990147783"/>
+        </scene>
+        <!--Third Screen View Controller-->
+        <scene sceneID="8By-Sv-o5Y">
+            <objects>
+                <viewController storyboardIdentifier="ThirdScreenViewController" id="yKC-WG-Zbo" customClass="ThirdScreenViewController" customModule="WagieApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kC7-Ai-jZb" customClass="GradientView" customModule="WagieApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="מה תרצה לדעת ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIy-ie-bm1">
+                                <rect key="frame" x="162" y="148" width="197" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="27"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="* החישוב לא כולל שעות נוספות" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y54-uH-Fyc">
+                                <rect key="frame" x="203" y="177" width="156" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="12"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVA-B7-9VW" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="720" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="20"/>
+                                <state key="normal" title="חשב מחדש">
+                                    <color key="titleColor" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="geF-qB-Zbd" kind="show" identifier="second" id="TMm-44-ZpR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8o-K1-hXd" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="256" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="22"/>
+                                <state key="normal" title="שכר יומי">
+                                    <color key="titleColor" red="0.1450980392" green="0.70980392160000005" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dailyButton:" destination="yKC-WG-Zbo" eventType="touchUpInside" id="DNm-2f-bFm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="267.52 שקלים" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQL-1y-c8X">
+                                <rect key="frame" x="89" y="314" width="197" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWr-yn-9bZ" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="350" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="22"/>
+                                <state key="normal" title="שכר שבועי">
+                                    <color key="titleColor" red="0.1450980392" green="0.70980392160000005" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="weeklyButton:" destination="yKC-WG-Zbo" eventType="touchUpInside" id="3Qs-C6-86f"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="800.32 שקלים" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-UE-vbU">
+                                <rect key="frame" x="89" y="408" width="197" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBI-vT-ddt" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="444" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="22"/>
+                                <state key="normal" title="שכר חודשי">
+                                    <color key="titleColor" red="0.1450980392" green="0.70980392160000005" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="monthlyButton:" destination="yKC-WG-Zbo" eventType="touchUpInside" id="3nP-pH-c4p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5,560.23 שקלים" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzq-9h-deQ">
+                                <rect key="frame" x="89" y="502" width="197" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vdn-T7-zrr" customClass="RoundButton" customModule="WagieApp">
+                                <rect key="frame" x="37" y="538" width="300" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="22"/>
+                                <state key="normal" title="שכר שנתי">
+                                    <color key="titleColor" red="0.1450980392" green="0.70980392160000005" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="yearlyButton:" destination="yKC-WG-Zbo" eventType="touchUpInside" id="AOe-18-yDv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="86,745.74 שקלים" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TQ-E5-GAD">
+                                <rect key="frame" x="89" y="596" width="197" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PmK-2p-KwX"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                <color key="value" red="0.20000000000000001" green="0.95294117649999999" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
+                                <color key="value" red="0.035294117649999998" green="0.28235294119999998" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <navigationItem key="navigationItem" id="Omp-ne-NMs"/>
+                    <connections>
+                        <outlet property="dailyLabel" destination="FQL-1y-c8X" id="eew-10-5Z9"/>
+                        <outlet property="monthlyLabel" destination="zzq-9h-deQ" id="BE3-Q9-Y9J"/>
+                        <outlet property="weeklyLabel" destination="mOC-UE-vbU" id="8qR-HN-r9I"/>
+                        <outlet property="yearlyLabel" destination="6TQ-E5-GAD" id="OZR-Qq-PiN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQg-Tm-9RO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1552.8" y="28.817733990147783"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TMm-44-ZpR"/>
+    </inferredMetricsTieBreakers>
+</document>

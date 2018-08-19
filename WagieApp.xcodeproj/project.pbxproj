@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145A2B27512C974338970BDC /* Pods_WagieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B7FFCC35510975ED0EF612 /* Pods_WagieApp.framework */; };
+		DACCE68C21283BF000491292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE68B21283BF000491292 /* AppDelegate.swift */; };
+		DACCE68E21283BF000491292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE68D21283BF000491292 /* ViewController.swift */; };
+		DACCE69121283BF000491292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACCE68F21283BF000491292 /* Main.storyboard */; };
+		DACCE69321283BF100491292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACCE69221283BF100491292 /* Assets.xcassets */; };
+		DACCE69621283BF100491292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACCE69421283BF100491292 /* LaunchScreen.storyboard */; };
+		DACCE69E21286C2C00491292 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE69D21286C2C00491292 /* GradientView.swift */; };
+		DACCE6A42128762800491292 /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACCE6A02128762800491292 /* Heebo-Light.ttf */; };
+		DACCE6A52128762800491292 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACCE6A12128762800491292 /* Heebo-Regular.ttf */; };
+		DACCE6A62128762800491292 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACCE6A22128762800491292 /* Heebo-Medium.ttf */; };
+		DACCE6A72128762800491292 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DACCE6A32128762800491292 /* Heebo-Bold.ttf */; };
+		DACCE6A921287B6100491292 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE6A821287B6100491292 /* ShadowView.swift */; };
+		DACCE6AB2128867B00491292 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE6AA2128867B00491292 /* RoundButton.swift */; };
+		DACCE6B02128BA7400491292 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE6AF2128BA7400491292 /* SecondScreenViewController.swift */; };
+		DACCE6B22128BB7900491292 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACCE6B12128BB7900491292 /* ThirdScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20A6C8B3E41099219E649528 /* Pods-WagieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagieApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagieApp/Pods-WagieApp.release.xcconfig"; sourceTree = "<group>"; };
+		54B7FFCC35510975ED0EF612 /* Pods_WagieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WagieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2B1732E7BC05770EB6DD91 /* Pods-WagieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagieApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagieApp/Pods-WagieApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DACCE68821283BF000491292 /* WagieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACCE68B21283BF000491292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACCE68D21283BF000491292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACCE69021283BF000491292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACCE69221283BF100491292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACCE69521283BF100491292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACCE69721283BF100491292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACCE69D21286C2C00491292 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DACCE6A02128762800491292 /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		DACCE6A12128762800491292 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		DACCE6A22128762800491292 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		DACCE6A32128762800491292 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		DACCE6A821287B6100491292 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		DACCE6AA2128867B00491292 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		DACCE6AF2128BA7400491292 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		DACCE6B12128BB7900491292 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACCE68521283BF000491292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145A2B27512C974338970BDC /* Pods_WagieApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10000C3596835457B7D18DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E2B1732E7BC05770EB6DD91 /* Pods-WagieApp.debug.xcconfig */,
+				20A6C8B3E41099219E649528 /* Pods-WagieApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2127F3064C98D0F23BA1FFCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B7FFCC35510975ED0EF612 /* Pods_WagieApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACCE67F21283BF000491292 = {
+			isa = PBXGroup;
+			children = (
+				DACCE68A21283BF000491292 /* WagieApp */,
+				DACCE68921283BF000491292 /* Products */,
+				10000C3596835457B7D18DA6 /* Pods */,
+				2127F3064C98D0F23BA1FFCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DACCE68921283BF000491292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE68821283BF000491292 /* WagieApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACCE68A21283BF000491292 /* WagieApp */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE69F212875ED00491292 /* Fonts */,
+				DACCE68B21283BF000491292 /* AppDelegate.swift */,
+				DACCE68D21283BF000491292 /* ViewController.swift */,
+				DACCE6AF2128BA7400491292 /* SecondScreenViewController.swift */,
+				DACCE6B12128BB7900491292 /* ThirdScreenViewController.swift */,
+				DACCE69221283BF100491292 /* Assets.xcassets */,
+				DACCE69721283BF100491292 /* Info.plist */,
+				DACCE69421283BF100491292 /* LaunchScreen.storyboard */,
+				DACCE68F21283BF000491292 /* Main.storyboard */,
+				DACCE6A821287B6100491292 /* ShadowView.swift */,
+				DACCE69D21286C2C00491292 /* GradientView.swift */,
+				DACCE6AA2128867B00491292 /* RoundButton.swift */,
+			);
+			path = WagieApp;
+			sourceTree = "<group>";
+		};
+		DACCE69F212875ED00491292 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DACCE6A32128762800491292 /* Heebo-Bold.ttf */,
+				DACCE6A02128762800491292 /* Heebo-Light.ttf */,
+				DACCE6A22128762800491292 /* Heebo-Medium.ttf */,
+				DACCE6A12128762800491292 /* Heebo-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACCE68721283BF000491292 /* WagieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACCE69A21283BF100491292 /* Build configuration list for PBXNativeTarget "WagieApp" */;
+			buildPhases = (
+				0D2DAB92B61E1E399849512A /* [CP] Check Pods Manifest.lock */,
+				DACCE68421283BF000491292 /* Sources */,
+				DACCE68521283BF000491292 /* Frameworks */,
+				DACCE68621283BF000491292 /* Resources */,
+				D88E3FA63E3D49C47F4DF567 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WagieApp;
+			productName = WagieApp;
+			productReference = DACCE68821283BF000491292 /* WagieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACCE68021283BF000491292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tony Gorb";
+				TargetAttributes = {
+					DACCE68721283BF000491292 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DACCE68321283BF000491292 /* Build configuration list for PBXProject "WagieApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACCE67F21283BF000491292;
+			productRefGroup = DACCE68921283BF000491292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACCE68721283BF000491292 /* WagieApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACCE68621283BF000491292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE6A52128762800491292 /* Heebo-Regular.ttf in Resources */,
+				DACCE69621283BF100491292 /* LaunchScreen.storyboard in Resources */,
+				DACCE6A72128762800491292 /* Heebo-Bold.ttf in Resources */,
+				DACCE69321283BF100491292 /* Assets.xcassets in Resources */,
+				DACCE6A62128762800491292 /* Heebo-Medium.ttf in Resources */,
+				DACCE69121283BF000491292 /* Main.storyboard in Resources */,
+				DACCE6A42128762800491292 /* Heebo-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2DAB92B61E1E399849512A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagieApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88E3FA63E3D49C47F4DF567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WagieApp/Pods-WagieApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagieApp/Pods-WagieApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACCE68421283BF000491292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCE6B02128BA7400491292 /* SecondScreenViewController.swift in Sources */,
+				DACCE6A921287B6100491292 /* ShadowView.swift in Sources */,
+				DACCE6B22128BB7900491292 /* ThirdScreenViewController.swift in Sources */,
+				DACCE6AB2128867B00491292 /* RoundButton.swift in Sources */,
+				DACCE68E21283BF000491292 /* ViewController.swift in Sources */,
+				DACCE68C21283BF000491292 /* AppDelegate.swift in Sources */,
+				DACCE69E21286C2C00491292 /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DACCE68F21283BF000491292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE69021283BF000491292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACCE69421283BF100491292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACCE69521283BF100491292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACCE69821283BF100491292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACCE69921283BF100491292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACCE69B21283BF100491292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2B1732E7BC05770EB6DD91 /* Pods-WagieApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WagieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonygorb.WagieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACCE69C21283BF100491292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A6C8B3E41099219E649528 /* Pods-WagieApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WagieApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tonygorb.WagieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACCE68321283BF000491292 /* Build configuration list for PBXProject "WagieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE69821283BF100491292 /* Debug */,
+				DACCE69921283BF100491292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACCE69A21283BF100491292 /* Build configuration list for PBXNativeTarget "WagieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACCE69B21283BF100491292 /* Debug */,
+				DACCE69C21283BF100491292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACCE68021283BF000491292 /* Project object */;
+}
